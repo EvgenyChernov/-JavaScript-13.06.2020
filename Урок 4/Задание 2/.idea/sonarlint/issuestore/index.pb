@@ -4,3 +4,14 @@
 index.html,f\6\f6013a00b362253c64368d6eebc50ea2131754e2
 @
 js/javascript.js,7\0\703c9805d3f4a76fe3ccd0b19c82738b0f289122
+<
+js/config.js,a\2\a2ea22e8503c87ada843473536654522b138a069
+>
+js/renderer.js,1\e\1e520697acd0b5945e3cb991b4594b361a642978
+<
+js/player.js,4\d\4d3950ee0116a94554c4685279b6346207f47daa
+;
+js/mover.js,9\b\9b1c88e136fa8037aec3dc6fa3bb621ff40be896
+:
+
+js/game.js,a\1\a11dffb636ca569515545ae88e1b79af1707c694

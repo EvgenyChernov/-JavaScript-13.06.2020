@@ -11,9 +11,14 @@ let game = {
                 return;
             }
             const nextPoint = mover.getNextPosition(direction);
-            renderer.clear();
-            player.move(nextPoint);
-            renderer.render()
+            if (mover.canPlayerMakeStep(nextPoint)) { // в случае выполнения условия координаты игрока перезапишутся, игровое поле очистится и заново отрисуется
+                player.move(nextPoint);
+                renderer.clear();
+                renderer.render();
+            } else {
+                alert("Допустимы шаги в рамках игрового поля ")
+            }
+
         }
     },
     /**
