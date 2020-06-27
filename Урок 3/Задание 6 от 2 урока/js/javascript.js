@@ -1,4 +1,4 @@
-"use strict"
+"use strict";
 
 let a = parseInt(prompt("Введите число для вклада в банк"))
 
